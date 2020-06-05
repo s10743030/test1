@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>評論</title>
+</head>
+<body>
+	<div id="nav"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $("#nav").load( "nav.html");
+</script>
+	<p>給予評論~~~~</p>
+<form action="" method="get">
+	<label for="phone">您的姓名 :</label><br>
+	<input type="text" name="id" /><br>
+	<label for="phone">聯絡電話:</label><br>
+	<input type="tel" id="phone" name="phone" placeholder="0912-123123" pattern="[0-9]{7}-[0-9]{6}"><br>
+	<label for="phone">評價</label><br>
+	<textarea style="width:300px;height:100px;"></textarea>
+	<p>您的身份
+	<select name="YourLocation">
+	　<option value="aaa">老師</option>
+	　<option value="bbb">學生</option>
+	</select></p>
+	您的喜好程度:<br>
+	<input type="radio" name="location" value="Taipei"> 1-3<br>
+	<input type="radio" name="location" value="Taoyuan"> 4-6<br>
+	<input type="radio" name="location" value="Taoyuan"> 7-10<br>
+	　<input type="eee" value="送出表單">
+	<form>
+</form>
+</form>
+ 
+	
+</body>
+</html>
